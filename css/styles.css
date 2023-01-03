@@ -6,7 +6,7 @@
     zoom: 75%;
     border-radius: 50px;
     background: rgb(243, 245, 252, 0.9);
-    background-image: URL(https://app.aluracursos.com/form-one/assets/images/logo-corner.png);
+    /* background-image: URL(https://app.aluracursos.com/form-one/assets/images/logo-corner.png); */
     background-size: 80%;
     background-position: center;
     background-repeat: no-repeat;
@@ -192,6 +192,7 @@
     flex: none;
     order: 1;
     flex-grow: 0;
+    cursor: pointer;
 }
 
 .decrypt span {
@@ -208,6 +209,7 @@
     flex: none;
     order: 0;
     flex-grow: 1;
+    cursor: pointer;
 }
 
 .encrypt {
@@ -224,6 +226,7 @@
     flex: none;
     order: 0;
     flex-grow: 0;
+    cursor: pointer;
 }
 
 .encrypt span {
@@ -240,6 +243,7 @@
     flex: none;
     order: 0;
     flex-grow: 1;
+    cursor: pointer;
 }
 
 .not-display p {
@@ -273,6 +277,7 @@
     top: 885px;
     border: 1px solid #0A3871;
     border-radius: 24px;
+    cursor: pointer;
 }
 
 .copy-ciphertext span {
@@ -289,4 +294,6 @@
     flex: none;
     order: 0;
     flex-grow: 1;
+    cursor: pointer;
+    cursor: pointer;
 }
