@@ -1,0 +1,292 @@
+.Container {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    margin: 0 auto;
+    zoom: 75%;
+    border-radius: 50px;
+    background: rgb(243, 245, 252, 0.9);
+    background-image: URL(https://app.aluracursos.com/form-one/assets/images/logo-corner.png);
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: hard-light;
+}
+
+.Container img {
+    width: 120px;
+    height: 48px;
+    margin-top: 20px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+#textarea-1 {
+    position: absolute;
+    width: 680px;
+    height: 288px;
+    left: 240px;
+    top: 168px;
+    border: none;
+    font-family: 'Courier New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0A3871;
+    background-color: none;
+
+}
+
+.cut-text {
+    font-family: 'Courier New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    position: absolute;
+    top: 500px;
+    left: 250px;
+    padding: 10px 20px;
+}
+
+.Rectangle-1 {
+    position: absolute;
+    width: 400px;
+    height: 944px;
+    left: 1000px;
+    top: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+
+.Rectangle-1 img {
+    /* Muñeco */
+    position: absolute;
+    width: 336px;
+    height: 304px;
+    top: 283px;
+    background-size: cover;
+}
+
+.Frame-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    position: absolute;
+    width: 229px;
+    height: 18px;
+    left: 240px;
+    top: 851px;
+}
+
+.Frame-1 h5 {
+
+    /* Inside auto layout */
+    width: 400px;
+    height: 18px;
+    font-family: 'Courier New';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    color: #495057;
+    opacity: 0.8;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.Frame-1 h5::before {
+    content: url("../img/bi_exclamation-circle-fill.svg");
+    position: relative;
+    margin-right: 10px;
+
+}
+
+
+.Frame-3 {
+    /* Frame 3 */
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 240px;
+    top: 885px;
+}
+
+.Frame-5 {
+    /* Frame 5 */
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    position: absolute;
+    width: 336px;
+    height: 122px;
+    left: 1032px;
+    top: 619px;
+
+}
+
+.Mensaje_1 {
+    /* Ningún mensaje fue encontrado */
+
+    width: 336px;
+    height: 58px;
+    font-family: 'Courier New';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    color: #343A40;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.Mensaje_2 {
+    /* Ingresa el texto que desees encriptar o desencriptar. */
+    width: 336px;
+    height: 48px;
+    font-family: 'Courier New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #495057;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.decrypt {
+    /* Button */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.decrypt span {
+    /* Desencriptar */
+    width: 280px;
+    height: 19px;
+    font-family: 'Courier New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 19px;
+    text-align: center;
+    color: black;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.encrypt {
+    /* Encriptar*/
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    background: #0A3871;
+    border-radius: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.encrypt span {
+    /* Button */
+    width: 280px;
+    height: 19px;
+    font-family: 'Courier New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.not-display p {
+    position: absolute;
+    width: 336px;
+    height: 781px;
+    left: 1032px;
+    top: 72px;
+    font-family: 'Courier New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 150%;
+    color: #495057;
+    padding-right: 30px;
+    text-align: justify;
+}
+
+.copy-ciphertext {
+    /* Button */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    position: absolute;
+    width: 336px;
+    height: 67px;
+    left: 1032px;
+    top: 885px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+}
+
+.copy-ciphertext span {
+    /* Copiar */
+    width: 288px;
+    height: 19px;
+    font-family: 'Courier New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 19px;
+    text-align: center;
+    color: #0A3871;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
