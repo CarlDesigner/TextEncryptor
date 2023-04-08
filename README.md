@@ -1,3 +1,3 @@
 ## Encriptador de Texto
 
-Author: **CarlDesigner**
+Author: `@CarlDesigner`
